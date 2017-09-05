@@ -1,0 +1,372 @@
+@import '../Vendor/responsivegridsystem/css/col';
+@import '../Vendor/responsivegridsystem/css/12cols';
+
+$break-small: '480px';
+.body{
+  position: relative;
+}
+.header{
+  padding: 1em 0;
+  border-bottom: 1px solid $light-gray;
+  &.logo-header img{
+    display:block;
+    margin: auto;
+    max-width: 140px;
+  }
+}
+
+.hidden-link{
+  cursor: default;
+  color: $dark-gray;
+  text-decoration: none;
+}
+.section{
+  padding: 1.5em 5%;
+  &.brand-summary-section{
+    background-color: $blue;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    .brand-logo{
+      display: block;
+      width: 40%;
+      position: absolute;
+      top: 3%;
+      left: 5%;
+    }
+    .fixed-button-container{
+      background: none;
+    }
+    .button.button-primary{
+      background-color: white;
+      color: $blue;
+    }
+  }
+  &.hero-image-section{
+    background-size: cover;
+    background-position: top center;
+    background-image: url('../images/team-photo.jpg');
+    width: 100%;
+    height: 20em;
+    .logo{
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+.intro-hero{
+  background-color: $light-blue;
+  h2,h3{
+    @extend .centered;
+    line-height: 1.1;
+  }
+  h2{
+    color: $blue;
+  }
+}
+
+.onboarding-item{
+  @extend %clearfix;
+  padding: 1em 0;
+  img{
+    display:block;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1em;
+    max-height: 180px;
+  }
+  .onboarding-text{
+    text-align: center;
+  }
+}
+
+.center-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.loading-container{
+  margin: auto;
+  position: relative;
+  margin-bottom: 1em;
+  .loading-symbol{
+    display: block;
+    width: 33%;
+    margin: auto;
+  }
+  .loading-logo{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.brand-tile{
+  @extend %clearfix;
+  .category-header, .tile-section{
+    width: 50%;
+    float: left;
+  }
+}
+
+.tile-header, .tile-section{
+  @extend %clearfix;
+}
+
+.tile-section{
+  margin: 5% 0;
+  .logo{
+    width: 75%;
+    @include aspect-ratio(1,1);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+  }
+  .colors{
+    list-style: none;
+    li{
+      display: block;
+      float: left;
+      margin-bottom: 5%;
+      width: 30%;
+      border-radius: 100%;
+      margin-left: 5%;
+      @include aspect-ratio(1,1);
+      &:nth-child(3n+1){
+        margin-left: 0;
+      }
+      &.bordered{
+        border: 1px solid $dark-gray;
+      }
+    }
+  }
+}
+
+.image-tiles{
+  margin-top: 5%;
+  @extend %clearfix;
+  list-style: none;
+  li{
+    width: 50%;
+    @include aspect-ratio(1,1);
+    background-size: cover;
+    background-color: $light-gray;
+    background-position: center center;
+    display: block;
+    background-repeat: no-repeat;
+    float: left;
+    &.banner{
+      width: 100%;
+      @include aspect-ratio(2,1);
+    }
+  }
+  &.horizontal{
+    margin-top: 0;
+    li{
+      width: 20%;
+      @include aspect-ratio(2,3)
+    }
+  }
+}
+
+.tile-header{
+  border-bottom: 1px solid $light-gray;
+}
+
+.focal-image{
+  padding-top: 1em;
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.grade-categories{
+  margin-top: 1em;
+  li{
+    @extend %clearfix;
+    padding: 1em 0;
+    border-bottom: 1px solid $light-gray;
+    &:first-child{
+      border-top: 1px solid $light-gray;
+    }
+    .category-name, .rating{
+      width:50%;
+      float: left;
+    }
+    .category-name{
+      color: $darkest-gray;
+      font-weight: 600;
+      font-family: 'proxima nova soft';
+    }
+    .rating{
+      text-align: right;
+      padding-right: 2em;
+      position: relative;
+      &.poor{
+        color: red;
+        &:after{
+          background-image: url('../images/red-exclamation.svg');
+          background-size: 1.5em 1.5em;
+          background-repeat: no-repeat;
+          background-position: center center;
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 1.5em;
+          height: 1.5em;
+          content: '';
+        }
+      }
+    }
+  }
+}
+
+ul.styled-list{
+  padding: 1em 0;
+  list-style: disc;
+  li{
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.last-posts-by-location{
+  border-top: 1px solid $light-gray;
+  border-bottom: 1px solid $light-gray;
+  list-style: disc;
+}
+
+.location-name, .post-date{
+  font-weight: 600;
+}
+.post-date{
+  color: $red;
+}
+
+.interaction-breakdown, .image-examples{
+  padding: 1em 0;
+  border-top: 1px solid $light-gray;
+  border-bottom: 1px solid $light-gray;
+  @extend %clearfix;
+  .interaction-breakdown-item, .image-example-item{
+    width: 47.5%;
+    float: left;
+    margin-bottom: 1em;
+    &:nth-child(2n+1){
+      margin-left: 5%;
+    }
+  }
+}
+
+.posted-image{
+  @include aspect-ratio(1,1);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 1em;
+}
+
+.post-info-container{
+  @extend %clearfix;
+  .post-image{
+    width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    @include aspect-ratio(3,4);
+  }
+  .post-stats{
+    width: 65%;
+    margin-left: 5%;
+    float: left;
+    .highlight{
+      color: $red;
+      font-weight: 600;
+    }
+  }
+}
+
+ul.issues-list li{
+  color: $red;
+  margin-bottom: .25em;
+}
+
+.brand-hero-bg{
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: $darkest-gray;
+  background-blend-mode: multiply;
+}
+
+.centered-content{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.brand-hero-content{
+  width: 80%;
+  text-align: center;
+  img{
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  h4, p{
+    color: white;
+    font-weight: 400;
+  }
+}
+
+.social-chart{
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 1em 0;
+}
+
+
+
+//  MEDIA QUERIES
+@media screen and (max-width: $break-small){
+  .onboarding-item{
+    img{
+      width:37.5%;
+      float:left;
+      margin: 0;
+    }
+    .onboarding-text{
+      width:57.5%;
+      float:left;
+      margin-left: 5%;
+      margin-right: 0;
+      text-align: left;
+    }
+    &.reverse{
+      img,.onboarding-text{
+        float: right;
+      }
+      .onboarding-text{
+        margin-right: 5%;
+        margin-left: 0;
+      }
+    }
+  }
+}

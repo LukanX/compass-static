@@ -1,0 +1,8 @@
+input[type=text]{
+  @extend h4;
+  background-color: $lightest-red;
+  width: 100%;
+  padding: .5em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}

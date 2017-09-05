@@ -1,0 +1,70 @@
+.card-container{
+  position: relative;
+  width: 100%;
+  height: 93%;
+  .card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .instructions{
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    padding: 1em;
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 300px;
+    text-align: center;
+    z-index: 100;
+    .hidden-link{
+      color: white;
+    }
+  }
+  .card-interior{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    position: relative;
+    .card-logo{
+      display: block;
+      width: 25%;
+      position: absolute;
+      top: 3%;
+      left: 5%;
+    }
+    .card-info{
+      @extend %clearfix;
+      background-color: white;
+      position: absolute;
+      width: 90%;
+      margin: auto;
+      bottom: 3%;
+      left: 5%;
+      right: 5%;
+      border-radius: 6px;
+      padding: .5em;
+      .location-name{
+        margin-bottom: .25em;
+      }
+      .source, .views{
+        float:left;
+      }
+      .source{
+        width: 60%;
+      }
+      .views{
+        color: $red;
+        width: 40%;
+        padding-left: 5%;
+        text-align: right;
+      }
+    }
+
+  }
+}

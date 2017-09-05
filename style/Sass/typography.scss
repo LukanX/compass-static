@@ -1,0 +1,149 @@
+// Font-Face
+@font-face{ //Proxima Nova Soft Regular
+  font-family: 'Proxima Nova Soft';
+  src: url('../fonts/ProximaNovaSoft-Regular.woff') format('woff');
+}
+
+@font-face{ // Proxima Soft Semibold
+  font-family: 'Proxima Nova Soft';
+  src: url('../fonts/ProximaNovaSoft-Semibold.woff') format('woff');
+  font-weight: 600;
+}
+
+@font-face{ //Proxima Soft Regular
+  font-family: 'Proxima Soft';
+  src: url('../fonts/proximasoft-regular.woff') format('woff');
+}
+
+@font-face{ //Proxima Semibold
+  font-family: 'Proxima Soft';
+  src: url('../fonts/proximasoft-semibold.woff') format('woff');
+  font-weight: 600;
+}
+
+@font-face{ //Handelson for real
+  font-family: 'Handelson';
+  src: url('../fonts/handelson-three.woff') format('woff');
+}
+
+
+$small-type-screen: '375px';
+
+body{
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Proxima Nova Soft', 'Open Sans', sans-serif;
+  color: $dark-gray;
+  @media screen and (max-width: $small-type-screen){
+    font-size: 14px;
+  }
+}
+
+p{
+  padding-bottom: .5em;
+}
+
+h1,h2,h3,h4,h5{
+  color: $darkest-gray;
+}
+
+
+h1{
+  font-size: 3.998em; //64px
+  font-family: 'Proxima Soft', sans-serif;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 2.827em;
+  font-family: 'Handelson', sans-serif;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 1.999em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h4{
+  font-size: 1.414em;
+  font-family: 'Proxima Soft', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: .5em;
+}
+
+h5{
+  font-size: 1em;
+  font-family: 'Proxima Soft', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: .5em;
+}
+
+h6{
+  color: $blue;
+  text-transform: uppercase;
+  font-size: .875em;
+  font-weight: 600;
+  font-family: 'Proxima Soft';
+  line-height: 3em;
+}
+
+strong{
+  font-weight: 600;
+}
+
+.list-header{
+  font-size: 1em;
+  color: $darkest-gray;
+  font-weight: 600;
+  margin-bottom: .5em;
+}
+
+.large-margin{
+  margin-bottom: 2em;
+}
+
+.centered{
+  text-align: center;
+}
+
+p.centered{
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+
+.condensed-text{
+  width: 80%;
+  margin: auto;
+}
+
+.page-header{
+  padding-top: 1em;
+}
+
+.versus-text{
+  margin: 1em 0 .75em;
+}
+
+.large-heading{
+  font-size: 6.25em;
+  font-weight: 600;
+  font-family: 'Proxima Nova Soft';
+  line-height: 1;
+}
+
+.grade{
+  color: $dark-gray;
+  font-weight: 400;
+}
+
+.key-text{
+  color: $dark-gray;
+  text-transform: uppercase;
+  font-size: .75em;
+  text-align: center;
+}
