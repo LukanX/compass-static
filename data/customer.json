@@ -1,6 +1,6 @@
 {
   "name": "Blink Fitness",
-  "logo": "../images/logo_blink.svg",
+  "logo": "images/logo_blink.svg",
   "colors": [
     "#FF2C00",
     "#B9D600",

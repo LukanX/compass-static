@@ -16,17 +16,17 @@
         <div class="category-header">Logo</div>
         <div class="category-header">Colors</div>
       </div>
-      <div class="tile-section">
-        <div class="logo" style="background-image: url('images/logo_blink.svg')"></div>
+      <div class="tile-section" id="logo-section">
+        <!-- <div class="logo" style="background-image: url('images/logo_blink.svg')"></div> -->
       </div>
       <div class="tile-section">
         <ul class="colors">
-          <li style="background-color: #FF2C00;"></li>
+          <!-- <li style="background-color: #FF2C00;"></li>
           <li style="background-color: #B9D600;"></li>
           <li style="background-color: #00A8E1;"></li>
           <li style="background-color: #A4B5C6;"></li>
           <li style="background-color: #415362;"></li>
-          <li style="background-color: white;" class="bordered"></li>
+          <li style="background-color: white;" class="bordered"></li> -->
         </ul>
       </div>
     </div>
@@ -58,10 +58,38 @@
 <script>
   $(document).ready(function(){
     var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+
+    function hexToRgb(hex) {
+      var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+      return result ? {
+          r: parseInt(result[1], 16),
+          g: parseInt(result[2], 16),
+          b: parseInt(result[3], 16)
+      } : null;
+    }
+
     $.getJSON(json_url, function(data){
+
+      // logo
+      $('#logo-section').append($('<div class="logo" style="background-image: url("'+data.logo+'"></div>'))
+
+      // Image Tiles
       var imageTiles = $('.image-tiles');
-      $.each(data.brandImages,function(index,value){
-        console.log(index + ': ' + value );
+
+      $.each(data.brandImages,function(i, image){
+        imageTiles.append($('<li style="background-image: url('+image+'")</li>'));
+      });
+
+      // Colors
+      var colors = $('.colors');
+      $.each(data.colors, function(i, color){
+        rgbColor = hexToRgb(color);
+        if ((rgbColor.r*0.299 + rgbColor.g*0.587 + rgbColor.b*0.114) > 186){
+          colors.append($('<li class="bordered" style="background-color:'+color+'"></li>'));
+        }
+        else{
+          colors.append($('<li style="background-color:'+color+'"></li>'));
+        }
       });
     })
 
