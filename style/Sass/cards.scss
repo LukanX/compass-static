@@ -1,11 +1,11 @@
 .card-container{
   position: relative;
   width: 100%;
-  height: 93%;
+  height: 100%;
   .card{
-    position: absolute;
     width: 100%;
     height: 100%;
+    padding: 1em;
   }
   .instructions{
     background-color: rgba(0,0,0,.5);
@@ -66,5 +66,20 @@
       }
     }
 
+  }
+}
+
+ul.card-deck{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  li{
+    float: left;
   }
 }

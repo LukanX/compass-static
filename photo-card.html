@@ -4,29 +4,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="script/slick.min.js"></script>
   <title>Compass by Main Street Hub</title>
 </head>
 <body>
-  <div class="section">
+  <!-- <div class="section"> -->
     <div class="card-container">
       <div class="instructions">
         <a href="difference.html" class="hidden-link">Swipe left to view more photos</a>
       </div>
-      <div class="card">
-        <div class="card-interior" style="background-image: url('https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e15/11195837_1616857028554605_1743193673_n.jpg');">
-          <img src="images/logo_blink_white.svg" alt="" class="card-logo">
-          <div class="card-info">
-            <h4 class="location-name">Blink Concourse Village</h4>
-            <div class="market-location">Bronx</div>
-            <div class="source">Photo from Instagram</div>
-            <div class="views">3 Interactions</div>
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-interior" style="background-image: url('https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e15/11195837_1616857028554605_1743193673_n.jpg');">
+            <img src="images/logo_blink_white.svg" alt="" class="card-logo">
+            <div class="card-info">
+              <h4 class="location-name">Blink Concourse Village</h4>
+              <div class="market-location">Bronx</div>
+              <div class="source">Photo from Instagram</div>
+              <div class="views">3 Interactions</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-interior" style="background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14729105_645785972267485_5791199805866268165_n.jpg?oh=44a7d3c8231bd3ae70ec9badcfb085c7&oe=5A2C6B5B');">
+            <img src="images/logo_blink_white.svg" alt="" class="card-logo">
+            <div class="card-info">
+              <h4 class="location-name">Blink South Orange</h4>
+              <div class="market-location">New Jersey</div>
+              <div class="source">Photo from Facebook</div>
+              <div class="views">3 Interactions</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-interior" style="background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14729105_645785972267485_5791199805866268165_n.jpg?oh=44a7d3c8231bd3ae70ec9badcfb085c7&oe=5A2C6B5B');">
+            <img src="images/logo_blink_white.svg" alt="" class="card-logo">
+            <div class="card-info">
+              <h4 class="location-name">Blink South Orange</h4>
+              <div class="market-location">New Jersey</div>
+              <div class="source">Photo from Facebook</div>
+              <div class="views">3 Interactions</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
 
 
 </body>
 </html>
+
+<script>
+  $(document).ready(function(){
+
+    $('.card-deck').slick({
+      accessbility: false,
+      arrows: false,
+      infinite: false
+    });
+
+    setTimeout(function(){
+      $('.instructions').fadeOut(500);
+    },2000);
+  })
+</script>

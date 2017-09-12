@@ -1,0 +1,23 @@
+{
+  "name": "Blink Fitness",
+  "logo": "../images/logo_blink.svg",
+  "colors": [
+    "#FF2C00",
+    "#B9D600",
+    "#00A8E1",
+    "#A4B5C6",
+    "#415362",
+    "#FFFFFF"
+  ],
+  "brand-images": [
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/18813313_1565432520155031_6371179443930419196_n.jpg?oh=b1770693361b849af76fbedb024bc61e&oe=5A2E9435",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/17553648_1492999694064981_562789687023444878_n.jpg?oh=efd5a8ca201c7728bb471528ee4a174a&oe=5A37D649",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/16299503_1413402088691409_7367809037573633813_n.png?oh=bb4e22df0068524ccb1a4ef9dfad08ed&oe=5A2E1837",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/20604638_1641010399263909_467698240467669183_n.jpg?oh=66ab09a354fac4a7510345465f9ae368&oe=5A2D7D14",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/20229143_1626927670672182_7984151059265160329_n.jpg?oh=6dacf69f7539e777e1c40f16a1ff7df8&oe=5A1ECC28",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/942813_1099904150041206_3064238368506034783_n.png?oh=3485ae0d13239b0fb5eb1ff0da83c5a3&oe=5A1E1793",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/16903156_1439099696121648_3107646484480241581_o.jpg?oh=78fa57fa51017fea6bd4715f354a0db9&oe=5A1CE46E",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/16143111_1409012315797053_7677959868528267561_n.png?oh=1c5e2172e9d95d68ec44c91f5f82d749&oe=5A29950A",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/943975_1110932488938372_2619264082399956692_n.png?oh=32b9d71512c247bfb9c2e2d794318a47&oe=5A1A972C"
+  ]
+}
