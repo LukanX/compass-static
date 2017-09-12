@@ -71,7 +71,7 @@
     $.getJSON(json_url, function(data){
 
       // logo
-      $('#logo-section').append($('<div class="logo" style="background-image: url("'+data.logo+'"></div>'))
+      $('#logo-section').append($('<div class="logo" style="background-image: url('+data.logo+')"></div>'))
 
       // Image Tiles
       var imageTiles = $('.image-tiles');
