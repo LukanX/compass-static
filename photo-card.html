@@ -66,7 +66,7 @@
     $.getJSON(json_url, function(merchant){
       // Cards
       $.each(merchant.posts, function(i, post){
-        $('.card-deck').append($('<div class="card"><div class="card-interior" style="background-image: url('+post.image+');"></div></div>'));
+        $('.card-deck').append($('<div class="card"><div class="card-interior" style="background-image: url('+post.image+');"><img src="'+merchant.whiteLogo+'" class="card-logo" /><div class="card-info"><h4 class="location-name">'+post.locationName+'</h4><div class="market-location">'+post.marketLocation+'</div><div class="source">Photo from '+post.source+'</div><div class="views">'+post.interactions+' Interactions</div></div></div></div>'));
 
         // $('.card-deck').append($(
         //   '<div class="card">'

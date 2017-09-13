@@ -27,21 +27,21 @@
       "locationName": "Blink Concourse Village",
       "marketLocation": "Bronx",
       "source": "Instagram",
-      "Interactions": 3
+      "interactions": 3
     },
     {
       "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14729105_645785972267485_5791199805866268165_n.jpg?oh=44a7d3c8231bd3ae70ec9badcfb085c7&oe=5A2C6B5B",
       "locationName": "Blink South Orange",
       "marketLocation": "New Jersey",
       "source": "Facebook",
-      "Interactions": 5
+      "interactions": 5
     },
     {
       "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11960282_498102953704472_242546085012206519_n.jpg?oh=b17f21ca7dc02c8b396fe448eba88c6a&oe=5A43EAC7",
       "locationName": "Blink Jamaica",
       "marketLocation": "Queens",
       "source": "Facebook",
-      "Interactions": 0
+      "interactions": 0
     }
   ]
 }
