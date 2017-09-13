@@ -36,8 +36,12 @@
     var getUrl = window.location;
     var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
     setTimeout(function(){
-      // window.location = 'https://lukanx.github.io/compass-static/your-brand.html'; - Live
-      window.location = 'file:///Users/lancecookson/dev/Compass_proto_static/your-brand.html';
+      if(window.location.origin == 'file://'){
+        window.location = 'file:///Users/lancecookson/dev/Compass_proto_static/your-brand.html';
+      }
+      else{
+        window.location = 'https://lukanx.github.io/compass-static/your-brand.html';
+      }
     }, 3000);
   });
 </script>

@@ -25,29 +25,6 @@
               <div class="views">3 Interactions</div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="card-interior" style="background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14729105_645785972267485_5791199805866268165_n.jpg?oh=44a7d3c8231bd3ae70ec9badcfb085c7&oe=5A2C6B5B');">
-            <img src="images/logo_blink_white.svg" alt="" class="card-logo">
-            <div class="card-info">
-              <h4 class="location-name">Blink South Orange</h4>
-              <div class="market-location">New Jersey</div>
-              <div class="source">Photo from Facebook</div>
-              <div class="views">3 Interactions</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-interior" style="background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14729105_645785972267485_5791199805866268165_n.jpg?oh=44a7d3c8231bd3ae70ec9badcfb085c7&oe=5A2C6B5B');">
-            <img src="images/logo_blink_white.svg" class="card-logo">
-            <div class="card-info">
-              <h4 class="location-name">Blink South Orange</h4>
-              <div class="market-location">New Jersey</div>
-              <div class="source">Photo from Facebook</div>
-              <div class="views">3 Interactions</div>
-            </div>
-          </div>
         </div> -->
       </div>
     </div>
@@ -67,52 +44,18 @@
       // Cards
       $.each(merchant.posts, function(i, post){
         $('.card-deck').append($('<div class="card"><div class="card-interior" style="background-image: url('+post.image+');"><img src="'+merchant.whiteLogo+'" class="card-logo" /><div class="card-info"><h4 class="location-name">'+post.locationName+'</h4><div class="market-location">'+post.marketLocation+'</div><div class="source">Photo from '+post.source+'</div><div class="views">'+post.interactions+' Interactions</div></div></div></div>'));
-
-        // $('.card-deck').append($(
-        //   '<div class="card">'
-        //     '<div class="card-interior" style="background-image: url('+post.image+');">')
-        //       '<img src="'+merchant.whiteLogo+'" class="card-logo" />'
-        //       '<div class="card-info">'
-        //         '<h4 class="location-name">'+post.locationName+'</h4>'
-        //         '<div class="market-location">'+post.marketLocation+'</div>'
-        //         '<div class="source">Photo from '+post.source+'</div>'
-        //         '<div class="views">'+post.interactions+' Interactions</div>'
-        //       '</div>'
-        //     '</div>'
-        //   '</div>'
       });
 
-
-      // // Image Tiles
-      // var imageTiles = $('.image-tiles');
-      //
-      // $.each(merchant.brandImages,function(i, image){
-      //   imageTiles.append($('<li style="background-image: url('+image+'")</li>'));
-      // });
-      //
-      // // Colors
-      // var colors = $('.colors');
-      // $.each(merchant.colors, function(i, color){
-      //   rgbColor = hexToRgb(color);
-      //   if ((rgbColor.r*0.299 + rgbColor.g*0.587 + rgbColor.b*0.114) > 186){
-      //     colors.append($('<li class="bordered" style="background-color:'+color+'"></li>'));
-      //   }
-      //   else{
-      //     colors.append($('<li style="background-color:'+color+'"></li>'));
-      //   }
-      // });
-    })
-
-    setTimeout(function(){
+    }).then(function(){
       $('.card-deck').slick({
         accessbility: false,
         arrows: false,
         infinite: false
       });
-    },10);
+    });
 
     setTimeout(function(){
       $('.instructions').fadeOut(500);
     },2000);
-  })
+  });
 </script>
