@@ -27,35 +27,60 @@
       "locationName": "Blink Concourse Village",
       "marketLocation": "Bronx",
       "source": "Instagram",
-      "interactions": 3
+      "interactions": {
+        "likes": 3,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "10/15/12"
     },
     {
       "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11057360_1461015850891937_3504478461250727509_n.jpg?oh=d2344a77f0e7c87d17d215e6cbc5d709&oe=5A4741C0",
       "locationName": "Blink Linden",
       "marketLocation": "New Jersey",
       "source": "Facebook",
-      "interactions": 3
+      "interactions": {
+        "likes": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "12/14/15"
     },
     {
       "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14729105_645785972267485_5791199805866268165_n.jpg?oh=44a7d3c8231bd3ae70ec9badcfb085c7&oe=5A2C6B5B",
       "locationName": "Blink South Orange",
       "marketLocation": "New Jersey",
       "source": "Facebook",
-      "interactions": 5
+      "interactions": {
+        "likes": 6,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "05/19/2017"
     },
     {
       "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11960282_498102953704472_242546085012206519_n.jpg?oh=b17f21ca7dc02c8b396fe448eba88c6a&oe=5A43EAC7",
       "locationName": "Blink Jamaica",
       "marketLocation": "Queens",
       "source": "Facebook",
-      "interactions": 0
+      "interactions": {
+        "likes": 3,
+        "comments": 2,
+        "shares": 0
+      },
+      "date": "12/14/15"
     },
     {
       "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e15/fr/p1080x1080/20180757_253728121796597_7076324620093095936_n.jpg",
       "locationName": "Blink Union",
       "marketLocation": "New Jersey",
       "source": "Instagram",
-      "interactions": 4
+      "interactions": {
+        "likes": 4,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "09/23/15"
     }
   ]
 }
