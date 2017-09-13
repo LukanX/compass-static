@@ -61,8 +61,9 @@
 <script>
   $(document).ready(function(){
     var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
-    $.getJSON(json_url, function(merchant){
 
+
+    $.getJSON(json_url, function(merchant){
       // Cards
       $.each(merchant.posts, function(i, post){
         $('.card-deck').append($('<div class="card"><div class="card-interior" style="background-image: url('+post.image+');"></div></div>'));
@@ -102,11 +103,13 @@
       // });
     })
 
-    $('.card-deck').slick({
-      accessbility: false,
-      arrows: false,
-      infinite: false
-    });
+    setTimeout(function(){
+      $('.card-deck').slick({
+        accessbility: false,
+        arrows: false,
+        infinite: false
+      });
+    },10);
 
     setTimeout(function(){
       $('.instructions').fadeOut(500);
