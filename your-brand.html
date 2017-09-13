@@ -68,21 +68,21 @@
       } : null;
     }
 
-    $.getJSON(json_url, function(data){
+    $.getJSON(json_url, function(merchant){
 
       // logo
-      $('#logo-section').append($('<div class="logo" style="background-image: url('+data.logo+')"></div>'))
+      $('#logo-section').append($('<div class="logo" style="background-image: url('+merchant.logo+')"></div>'))
 
       // Image Tiles
       var imageTiles = $('.image-tiles');
 
-      $.each(data.brandImages,function(i, image){
+      $.each(merchant.brandImages,function(i, image){
         imageTiles.append($('<li style="background-image: url('+image+'")</li>'));
       });
 
       // Colors
       var colors = $('.colors');
-      $.each(data.colors, function(i, color){
+      $.each(merchant.colors, function(i, color){
         rgbColor = hexToRgb(color);
         if ((rgbColor.r*0.299 + rgbColor.g*0.587 + rgbColor.b*0.114) > 186){
           colors.append($('<li class="bordered" style="background-color:'+color+'"></li>'));

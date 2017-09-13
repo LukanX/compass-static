@@ -1,6 +1,7 @@
 {
   "name": "Blink Fitness",
   "logo": "https://lukanx.github.io/compass-static/images/logo_blink.svg",
+  "whiteLogo": "https://lukanx.github.io/compass-static/images/logo_blink_white.svg" ,
   "colors": [
     "#FF2C00",
     "#B9D600",
@@ -19,5 +20,28 @@
     "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/16903156_1439099696121648_3107646484480241581_o.jpg?oh=78fa57fa51017fea6bd4715f354a0db9&oe=5A1CE46E",
     "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/16143111_1409012315797053_7677959868528267561_n.png?oh=1c5e2172e9d95d68ec44c91f5f82d749&oe=5A29950A",
     "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/943975_1110932488938372_2619264082399956692_n.png?oh=32b9d71512c247bfb9c2e2d794318a47&oe=5A1A972C"
+  ],
+  "posts": [
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14729105_645785972267485_5791199805866268165_n.jpg?oh=44a7d3c8231bd3ae70ec9badcfb085c7&oe=5A2C6B5B",
+      "locationName": "Blink Concourse Village",
+      "marketLocation": "Bronx",
+      "source": "Instagram",
+      "Interactions": 3
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14729105_645785972267485_5791199805866268165_n.jpg?oh=44a7d3c8231bd3ae70ec9badcfb085c7&oe=5A2C6B5B",
+      "locationName": "Blink South Orange",
+      "marketLocation": "New Jersey",
+      "source": "Facebook",
+      "Interactions": 3
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14729105_645785972267485_5791199805866268165_n.jpg?oh=44a7d3c8231bd3ae70ec9badcfb085c7&oe=5A2C6B5B",
+      "locationName": "Blink South Orange",
+      "marketLocation": "New Jersey",
+      "source": "Facebook",
+      "Interactions": 3
+    }
   ]
 }
