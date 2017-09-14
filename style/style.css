@@ -995,8 +995,22 @@ input[type=text] {
       display: block;
       width: 25%;
       position: absolute;
+      position: relative;
+      border-radius: .625em;
       top: 3%;
-      left: 5%; }
+      left: 5%;
+      background-color: white; }
+      .card-container .card-interior .card-logo:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 100%; }
+      .card-container .card-interior .card-logo > .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; }
     .card-container .card-interior .card-info {
       background-color: white;
       position: absolute;

@@ -35,8 +35,11 @@
       display: block;
       width: 25%;
       position: absolute;
+      @include aspect-ratio(1,1);
+      border-radius: .625em;
       top: 3%;
       left: 5%;
+      background-color: white;
     }
     .card-info{
       @extend %clearfix;
