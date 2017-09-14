@@ -170,11 +170,16 @@ p.centered, p.button {
 .versus-text {
   margin: 1em 0 .75em; }
 
-.large-heading {
-  font-size: 6.25em;
+.largest-heading, .large-heading {
   font-weight: 600;
   font-family: 'Proxima Nova Soft';
   line-height: 1; }
+
+.largest-heading {
+  font-size: 6.25em; }
+
+.large-heading {
+  font-size: 4.375em; }
 
 .grade {
   color: #7F8394;
