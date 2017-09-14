@@ -888,8 +888,7 @@ ul.issues-list li {
     margin: auto;
     margin-bottom: 1em; }
   .brand-hero-content h4, .brand-hero-content input[type=text], .brand-hero-content p {
-    color: white;
-    font-weight: 400; }
+    color: white; }
 
 .social-chart {
   display: block;
