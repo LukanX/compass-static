@@ -267,9 +267,12 @@ ul.check-list{
 }
 
 .last-posts-by-location{
+  padding-top: 1em;
   border-top: 1px solid $light-gray;
   border-bottom: 1px solid $light-gray;
-  list-style: disc;
+  li{
+    margin-bottom: 1em;
+  }
 }
 
 .location-name, .post-date{

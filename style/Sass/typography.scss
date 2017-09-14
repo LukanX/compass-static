@@ -161,6 +161,7 @@ p.centered{
   display: inline-block;
   position: relative;
   margin-bottom: 1em;
+  font-weight: 600;
   &:after{
     content: '';
     border-top: .5em solid transparent;

@@ -15,7 +15,7 @@
     <div class="large-heading red centered" id="average-year"></div>
     <h4 class="grade centered">Avg. Year of Locations' Last Post</h4>
       <!-- <div class="key-text">Key: A - Excellent &nbsp; B - Good &nbsp; C - Satisfactory <br/>D - Poor &nbsp; F - No Presence</div> -->
-    <ul class="last-posts-by-location styled-list">
+    <ul class="last-posts-by-location">
       <div class="list-header">Last post by location</div>
       <!-- <li>
         <div class="location-name">Blink Concourse Vill.</div>
@@ -76,7 +76,7 @@
       var dates = [];
       $.each(merchant.posts, function(i, post){
         // $('.last-posts-by-location').append($('<li><div class="location-name">'+post.locationName+'</div><div class="platform">'+post.platform+': <span class="post-date">'+post.date'</span></div></li>'));
-        $('.last-posts-by-location').append($('<li><div class="location-name">'+post.locationName+'</div><div class="platform">'+post.platform+': <span class="post-date">'+post.date+'</span></div></li>'));
+        $('.last-posts-by-location').append($('<li><div class="location-name">'+post.locationName+'</div><div class="platform">'+post.source+': <span class="post-date">'+post.date+'</span></div></li>'));
         dates.push(new Date(post.date));
       });
       $('#average-year').append(getAverageYear(dates));

@@ -188,7 +188,8 @@ p.centered, p.button {
   border-radius: .25em;
   display: inline-block;
   position: relative;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-weight: 600; }
   .expert-tip:after {
     content: '';
     border-top: .5em solid transparent;
@@ -784,9 +785,11 @@ ul.check-list {
       margin-bottom: 0; }
 
 .last-posts-by-location {
+  padding-top: 1em;
   border-top: 1px solid #DADEE1;
-  border-bottom: 1px solid #DADEE1;
-  list-style: disc; }
+  border-bottom: 1px solid #DADEE1; }
+  .last-posts-by-location li {
+    margin-bottom: 1em; }
 
 .location-name, .post-date {
   font-weight: 600; }
@@ -946,7 +949,7 @@ ul.issues-list li {
     background-color: white;
     color: #FF685B;
     border: 1px solid #FF685B;
-    width: 60%;
+    width: 80%;
     margin: auto;
     font-weight: 600; }
 
@@ -996,22 +999,8 @@ input[type=text] {
       display: block;
       width: 25%;
       position: absolute;
-      position: relative;
-      border-radius: .625em;
       top: 3%;
-      left: 5%;
-      background-color: white; }
-      .card-container .card-interior .card-logo:before {
-        display: block;
-        content: "";
-        width: 100%;
-        padding-top: 100%; }
-      .card-container .card-interior .card-logo > .content {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0; }
+      left: 5%; }
     .card-container .card-interior .card-info {
       background-color: white;
       position: absolute;
