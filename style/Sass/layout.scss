@@ -274,6 +274,11 @@ ul.check-list{
 .location-name, .post-date{
   font-weight: 600;
 }
+
+.location-name{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .post-date{
   color: $red;
 }
