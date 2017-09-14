@@ -942,12 +942,13 @@ ul.issues-list li {
       color: #FF685B; }
   .button.button-secondary {
     padding: .5em;
-    font-size: .1em;
+    font-size: 1gem;
     background-color: white;
     color: #FF685B;
     border: 1px solid #FF685B;
     width: 60%;
-    margin: auto; }
+    margin: auto;
+    font-weight: 600; }
 
 .button-padding {
   width: 100%;

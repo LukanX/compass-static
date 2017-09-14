@@ -36,12 +36,13 @@
   }
   &.button-secondary{
     padding: .5em;
-    font-size: 1em;
+    font-size: 1gem;
     background-color: white;
     color: $red;
     border: 1px solid $red;
     width: 60%;
     margin: auto;
+    font-weight: 600;
   }
 }
 .button-padding{
