@@ -142,11 +142,11 @@ strong {
 
 .category-header, .list-header {
   text-transform: uppercase;
-  color: #FF685B; }
+  color: #FF685B;
+  font-weight: 600; }
 
 .list-header {
   font-size: 1em;
-  font-weight: 600;
   margin-bottom: .5em;
   font-family: 'Proxima Nova Soft'; }
 
