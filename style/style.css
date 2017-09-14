@@ -183,7 +183,7 @@ p.centered, p.button {
 
 .grade {
   color: #7F8394;
-  font-weight: 400; }
+  font-weight: 600; }
 
 .expert-tip {
   text-transform: uppercase;
@@ -790,6 +790,7 @@ ul.check-list {
       margin-bottom: 0; }
 
 .last-posts-by-location {
+  margin-top: 1em;
   padding-top: 1em;
   border-top: 1px solid #DADEE1;
   border-bottom: 1px solid #DADEE1; }
@@ -808,6 +809,7 @@ ul.check-list {
   color: #FF685B; }
 
 .interaction-breakdown, .image-examples {
+  margin-top: 1em;
   padding: 1em 0;
   border-top: 1px solid #DADEE1;
   border-bottom: 1px solid #DADEE1; }
