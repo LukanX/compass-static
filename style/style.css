@@ -137,7 +137,7 @@ h6 {
   font-family: 'Proxima Soft';
   line-height: 3em; }
 
-strong {
+strong, .instructions {
   font-weight: 600; }
 
 .category-header, .list-header {
@@ -968,7 +968,7 @@ input[type=text] {
   .card-container .card {
     width: 100%;
     height: 100%;
-    padding: 1em; }
+    padding: .625em; }
   .card-container .instructions {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -1017,7 +1017,8 @@ input[type=text] {
         color: #FF685B;
         width: 70%;
         padding-left: 5%;
-        text-align: right; }
+        text-align: right;
+        font-weight: 600; }
 
 ul.card-deck {
   width: 100%;
