@@ -159,10 +159,6 @@ strong, .instructions {
 .centered, .intro-hero h2, .intro-hero h3, .button {
   text-align: center; }
 
-p.centered, p.button {
-  padding-right: 1em;
-  padding-left: 1em; }
-
 .condensed-text {
   width: 80%;
   margin: auto; }
