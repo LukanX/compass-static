@@ -140,11 +140,15 @@ h6 {
 strong {
   font-weight: 600; }
 
+.category-header, .list-header {
+  text-transform: uppercase;
+  color: #FF685B; }
+
 .list-header {
   font-size: 1em;
-  color: #3D4153;
   font-weight: 600;
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+  font-family: 'Proxima Nova Soft'; }
 
 .large-margin {
   margin-bottom: 2em; }
@@ -175,6 +179,25 @@ p.centered, p.button {
 .grade {
   color: #7F8394;
   font-weight: 400; }
+
+.expert-tip {
+  text-transform: uppercase;
+  color: white;
+  padding: .25em 1em;
+  background-color: #FF685B;
+  border-radius: .25em;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1em; }
+  .expert-tip:after {
+    content: '';
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+    border-left: 0.5em solid #FF685B;
+    position: absolute;
+    bottom: -.5em;
+    left: .75em;
+    border-radius: .5em; }
 
 .key-text {
   color: #7F8394;
@@ -713,7 +736,8 @@ p.centered, p.button {
     .grade-categories li .rating {
       text-align: right;
       padding-right: 2em;
-      position: relative; }
+      position: relative;
+      text-transform: uppercase; }
       .grade-categories li .rating.poor {
         color: red; }
         .grade-categories li .rating.poor:after {
@@ -736,6 +760,25 @@ ul.styled-list {
     margin-left: 2em;
     margin-bottom: 1.5em; }
     ul.styled-list li:last-child {
+      margin-bottom: 0; }
+
+ul.check-list {
+  padding: 1em 0; }
+  ul.check-list li {
+    margin-left: 1.75em;
+    margin-bottom: 1.5em;
+    position: relative; }
+    ul.check-list li:after {
+      content: '';
+      background-image: url(../images/check-list-box.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 1.25em;
+      width: 1.25em;
+      position: absolute;
+      top: 0em;
+      left: -1.75em; }
+    ul.check-list li:last-child {
       margin-bottom: 0; }
 
 .last-posts-by-location {
@@ -799,9 +842,9 @@ ul.styled-list {
 .post-info-container .post-stats {
   width: 65%;
   margin-left: 5%;
-  float: left; }
+  float: left;
+  text-transform: capitalize; }
   .post-info-container .post-stats .highlight {
-    color: #FF685B;
     font-weight: 600; }
 
 ul.issues-list li {

@@ -91,15 +91,21 @@ h6{
   line-height: 3em;
 }
 
+
 strong{
   font-weight: 600;
 }
 
+.category-header, .list-header{
+  text-transform: uppercase;
+  color: $red;
+}
+
 .list-header{
   font-size: 1em;
-  color: $darkest-gray;
   font-weight: 600;
   margin-bottom: .5em;
+  font-family: 'Proxima Nova Soft';
 }
 
 .large-margin{
@@ -139,6 +145,27 @@ p.centered{
 .grade{
   color: $dark-gray;
   font-weight: 400;
+}
+
+.expert-tip{
+  text-transform: uppercase;
+  color: white;
+  padding: .25em 1em;
+  background-color: $red;
+  border-radius: .25em;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1em;
+  &:after{
+    content: '';
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+    border-left: .5em solid $red;
+    position: absolute;
+    bottom: -.5em;
+    left: .75em;
+    border-radius: .5em;
+  }
 }
 
 .key-text{

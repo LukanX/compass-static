@@ -56,6 +56,20 @@
       return sum;
     }
 
+    function averageYear(obj){
+      var totalTime = 0;
+      var averageYear = null;
+
+      for (var el in obj){
+        date = new Date(el);
+
+        totalTime += date.getTime();
+      }
+      var averageDate = new Date(totalTime/obj.length);
+      averageYear = averageDate.getFullYear();
+      return averageYear;
+    }
+
 
     $.getJSON(json_url, function(merchant){
       // Cards

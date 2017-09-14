@@ -21,6 +21,33 @@
     "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/16143111_1409012315797053_7677959868528267561_n.png?oh=1c5e2172e9d95d68ec44c91f5f82d749&oe=5A29950A",
     "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/943975_1110932488938372_2619264082399956692_n.png?oh=32b9d71512c247bfb9c2e2d794318a47&oe=5A1A972C"
   ],
+  "poorImages":[
+    {
+      "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e15/11191507_900609950026594_818904499_n.jpg",
+      "locationName": "Blink Concourse Village",
+      "source": "Instagram"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11057360_1461015850891937_3504478461250727509_n.jpg?oh=d2344a77f0e7c87d17d215e6cbc5d709&oe=5A4741C0",
+      "locationName": "Blink Linden",
+      "source": "Facebook"
+    },
+    {
+      "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e15/11189613_1087722391244909_424339158_n.jpg",
+      "locationName": "Blink Concourse Village",
+      "source": "Instagram"
+    },
+    {
+      "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e35/18513281_170954120099801_6298641433041567744_n.jpg",
+      "locationName": "Blink Union",
+      "source": "Instagram"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11898748_500976320083802_9129115091748828663_n.jpg?oh=5f44a5a213a7323bba9f22266d09fb9e&oe=5A1F1BB3",
+      "locationName": "Blink Jamaica",
+      "source": "Facebook"
+    }
+  ],
   "posts": [
     {
       "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e15/11195837_1616857028554605_1743193673_n.jpg",
@@ -56,7 +83,7 @@
         "comments": 0,
         "shares": 0
       },
-      "date": "05/19/2017"
+      "date": "05/19/17"
     },
     {
       "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11960282_498102953704472_242546085012206519_n.jpg?oh=b17f21ca7dc02c8b396fe448eba88c6a&oe=5A43EAC7",

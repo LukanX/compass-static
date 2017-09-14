@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <title>Compass by Main Street Hub</title>
 </head>
 <body>
@@ -11,12 +12,12 @@
     <h4 class="centered page-header">Post Frequency</h4>
     <p class="centered">The posting frequency on your Facebook and Instagram pages is low for a brand of your size</p>
 
-    <div class="large-heading red centered">2015</div>
+    <div class="large-heading red centered" id="average-year"></div>
     <h4 class="grade centered">Avg. Year of Locations' Last Post</h4>
       <!-- <div class="key-text">Key: A - Excellent &nbsp; B - Good &nbsp; C - Satisfactory <br/>D - Poor &nbsp; F - No Presence</div> -->
     <ul class="last-posts-by-location styled-list">
       <div class="list-header">Last post by location</div>
-      <li>
+      <!-- <li>
         <div class="location-name">Blink Concourse Vill.</div>
         <div class="platform">Instagram: <span class="post-date">10/15/12</span></div>
       </li>
@@ -35,11 +36,11 @@
       <li>
         <div class="location-name">Blink Jamaica</div>
         <div class="platform">Facebook: <span class="post-date">12/14/15</span></div>
-      </li>
+      </li> -->
     </ul>
 
-    <ul class="styled-list">
-      <div class="list-header">Recommendations</div>
+    <ul class="check-list">
+      <div class="expert-tip">Expert Tip</div>
       <li><strong>Post 2-3 times a week.</strong> Quality, not quantity is key.  Post only high visual and engaging content.</li>
     </ul>
 
@@ -53,3 +54,36 @@
 
 </body>
 </html>
+
+<script>
+  $(document).ready(function(){
+    var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+
+    function getAverageYear(obj){
+      var totalTime = 0;
+      var averageYear = null;
+
+      for (el in obj){
+        totalTime += obj[el].getTime();
+      }
+      var averageDate = new Date(totalTime/obj.length);
+      averageYear = averageDate.getFullYear();
+      return averageYear;
+    }
+
+
+    $.getJSON(json_url, function(merchant){
+      var dates = [];
+      $.each(merchant.posts, function(i, post){
+        // $('.last-posts-by-location').append($('<li><div class="location-name">'+post.locationName+'</div><div class="platform">'+post.platform+': <span class="post-date">'+post.date'</span></div></li>'));
+        $('.last-posts-by-location').append($('<li><div class="location-name">'+post.locationName+'</div><div class="platform">'+post.platform+': <span class="post-date">'+post.date+'</span></div></li>'));
+        dates.push(new Date(post.date));
+      });
+      $('#average-year').append(getAverageYear(dates));
+    });
+
+    setTimeout(function(){
+      $('.instructions').fadeOut(500);
+    },2000);
+  });
+</script>
