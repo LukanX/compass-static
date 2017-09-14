@@ -927,6 +927,7 @@ ul.issues-list li {
 .button {
   display: block;
   font-family: 'Proxima Soft', 'Montserrat',sans-serif;
+  font-weight: 600;
   border-radius: 4px;
   text-decoration: none;
   padding: .75em;
