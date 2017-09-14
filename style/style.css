@@ -90,7 +90,7 @@ body {
   line-height: 1.4;
   font-family: 'Proxima Nova Soft', 'Open Sans', sans-serif;
   color: #7F8394; }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 320px) {
     body {
       font-size: 14px; } }
 
