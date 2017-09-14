@@ -5,22 +5,75 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style/style.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="script/slick.min.js"></script>
   <title>Compass by Main Street Hub</title>
 </head>
 <body>
-  <div class="section">
-    <div class="card-container">
-      <div class="instructions">
-        <a href="retro-wrapup.html" class="hidden-link">Swipe left to view more photos</a>
-      </div>
+  <div class="card-container">
+    <div class="instructions">
+      <a href="retro-wrapup.html" class="hidden-link">Swipe left to view more photos</a>
+    </div>
+    <div class="card-deck">
       <div class="card">
         <div class="card-interior" style="background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/19642248_784706968377159_4079185244671738143_n.png?oh=cdc5209d794288ea87620cf2d79b513c&oe=5A598266');">
           <img src="images/logo_retrofitness_white.svg" alt="" class="card-logo">
           <div class="card-info">
             <h4 class="location-name">Retro Fitness Apopka</h4>
             <div class="market-location">Florida</div>
-            <div class="source">Photo from Instagram</div>
+            <div class="source">Instagram</div>
             <div class="views">40 Interactions</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-interior" style="background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/20604676_1470830896300216_737910777010072436_n.png?oh=851dbed708a7b7024ec7f644c085dec0&oe=5A5A4667');">
+          <img src="images/logo_retrofitness_white.svg" alt="" class="card-logo">
+          <div class="card-info">
+            <h4 class="location-name">Retro Fitness Manassas</h4>
+            <div class="market-location">Virginia</div>
+            <div class="source">Facebook</div>
+            <div class="views">272 Interactions</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-interior" style="background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/20643156_680118085532855_873456590162347220_o.jpg?oh=d7b4e6abb4f8b8f1b0bf9e2a2c1a1f97&oe=5A605A89');">
+          <img src="images/logo_retrofitness_white.svg" alt="" class="card-logo">
+          <div class="card-info">
+            <h4 class="location-name">Retro Fitness Foxworthy</h4>
+            <div class="market-location">California</div>
+            <div class="source">Instagram</div>
+            <div class="views">57 Interactions</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-interior" style="background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/20476381_1622890097756177_6475602693510745904_n.png?oh=3d65341d13fac79b2b6ef7ac27bb03fd&oe=5A4E7162');">
+          <img src="images/logo_retrofitness_white.svg" alt="" class="card-logo">
+          <div class="card-info">
+            <h4 class="location-name">Retro Fitness Tenafly</h4>
+            <div class="market-location">New Jersey</div>
+            <div class="source">Instagram</div>
+            <div class="views">39 Interactions</div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-interior" style="background-image: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/19642596_1041623822641407_1823784987727070285_n.png?oh=77f10175702e1bc33d6d2118d201f940&oe=5A5EEFCD');">
+          <img src="images/logo_retrofitness_white.svg" alt="" class="card-logo">
+          <div class="card-info">
+            <h4 class="location-name">Retro Fitness Middletown</h4>
+            <div class="market-location">New Jersey</div>
+            <div class="source">Instagram</div>
+            <div class="views">42 Interactions</div>
+          </div>
+        </div>
+      </div>
+      <div class="card final-card">
+        <div class="card-interior">
+          <div class="centered-content">
+            <h3 class="centered">That's all folks</h3>
+            <a href="retro-wrapup.html" class="button button-primary">Next</a>
           </div>
         </div>
       </div>
@@ -31,3 +84,31 @@
 
 </body>
 </html>
+<script>
+
+$(document).ready(function(){
+  var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+  function sum( obj ) {
+    var sum = 0;
+    for( var el in obj ) {
+      if( obj.hasOwnProperty( el ) ) {
+        sum += parseFloat( obj[el] );
+      }
+    }
+    return sum;
+  }
+
+
+
+  $('.card-deck').slick({
+    accessbility: false,
+    arrows: false,
+    infinite: false
+  });
+
+  setTimeout(function(){
+    $('.instructions').fadeOut(500);
+  },2000);
+});
+
+</script>

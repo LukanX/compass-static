@@ -1000,14 +1000,14 @@ input[type=text] {
       border-radius: 6px;
       padding: .5em; }
       .card-container .card-interior .card-info .location-name {
-        margin-bottom: .25em; }
+        margin-bottom: 0; }
       .card-container .card-interior .card-info .source, .card-container .card-interior .card-info .views {
         float: left; }
       .card-container .card-interior .card-info .source {
-        width: 60%; }
+        width: 30%; }
       .card-container .card-interior .card-info .views {
         color: #FF685B;
-        width: 40%;
+        width: 70%;
         padding-left: 5%;
         text-align: right; }
 
