@@ -278,6 +278,7 @@ ul.check-list{
 .location-name{
   white-space: nowrap;
   text-overflow: ellipsis;
+  overflow-x: hidden;
 }
 .post-date{
   color: $red;
