@@ -145,6 +145,9 @@ strong {
   color: #FF685B;
   font-weight: 600; }
 
+.category-header {
+  margin-bottom: .25em; }
+
 .list-header {
   font-size: 1em;
   margin-bottom: .5em;
@@ -603,9 +606,11 @@ p.centered, p.button {
     left: 50%;
     transform: translate(-50%, -50%); }
 
-.brand-tile .category-header, .brand-tile .tile-section {
-  width: 50%;
-  float: left; }
+.brand-tile {
+  margin-top: .5em; }
+  .brand-tile .category-header, .brand-tile .tile-section {
+    width: 50%;
+    float: left; }
 
 .tile-section {
   margin: 5% 0; }

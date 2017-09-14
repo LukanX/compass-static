@@ -109,6 +109,7 @@ $break-small: '480px';
 
 .brand-tile{
   @extend %clearfix;
+  margin-top: .5em;
   .category-header, .tile-section{
     width: 50%;
     float: left;
