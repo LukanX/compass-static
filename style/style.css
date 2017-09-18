@@ -549,7 +549,7 @@ strong, .instructions {
     position: relative; }
     .section.brand-summary-section .brand-logo {
       display: block;
-      height: 1.5em;
+      height: 2em;
       position: absolute;
       top: 3%;
       left: 5%; }
@@ -1015,7 +1015,7 @@ input[type=text] {
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); }
     .card-container .card-interior .card-logo {
       display: block;
-      height: 1.5em;
+      height: 2em;
       position: absolute;
       top: 3%;
       left: 5%; }
