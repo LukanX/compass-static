@@ -155,7 +155,8 @@ $break-small: '480px';
   @extend %clearfix;
   list-style: none;
   li{
-    width: 50%;
+    width: 48%;
+    margin: 1%;
     @include aspect-ratio(1,1);
     background-size: cover;
     background-color: $light-gray;
@@ -164,7 +165,7 @@ $break-small: '480px';
     background-repeat: no-repeat;
     float: left;
     &:nth-child(3n + 3){
-      width: 100%;
+      width: 98%;
       @include aspect-ratio(2,1);
     }
   }
