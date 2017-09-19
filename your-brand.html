@@ -47,6 +47,8 @@
     var urlSubstring = window.location.search.substring(1);
     var json_url_base = 'https://lukanx.github.io/compass-static/data/';
     var json_url = null;
+    var _href = $("a.button-primary").attr("href");
+    $('a.button-primary').attr("href", _href + '?'+urlSubstring)
 
     var getURLString = function(subst){
       if (subst != ""){
@@ -58,6 +60,7 @@
       return json_url;
       console.log(json_url);
     }
+
 
 
 
