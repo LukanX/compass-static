@@ -50,7 +50,22 @@
 
 <script>
   $(document).ready(function(){
-    var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+    var urlSubstring = window.location.search.substring(1);
+    var json_url_base = 'https://lukanx.github.io/compass-static/data/';
+    var json_url = null;
+    var _href = $("a.button-primary").attr("href");
+    $('a.button-primary').attr("href", _href + '?'+urlSubstring)
+
+    var getURLString = function(subst){
+      if (subst != ""){
+      json_url = json_url_base+urlSubstring+'.json';
+      }
+      else{
+        var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+      }
+      return json_url;
+      console.log(json_url);
+    }
 
     function sum( obj ) {
       var sum = 0;
@@ -62,7 +77,7 @@
       return sum;
     }
 
-    $.getJSON(json_url, function(merchant){
+    $.getJSON(getURLString(urlSubstring), function(merchant){
       var totalInteractions = 0;
 
       $.each(merchant.posts, function(i, post){

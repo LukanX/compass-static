@@ -40,10 +40,25 @@
 
 <script>
   $(document).ready(function(){
-    var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+    var urlSubstring = window.location.search.substring(1);
+    var json_url_base = 'https://lukanx.github.io/compass-static/data/';
+    var json_url = null;
+    var _href = $("a.button-primary").attr("href");
+    $('a.button-primary').attr("href", _href + '?'+urlSubstring)
+
+    var getURLString = function(subst){
+      if (subst != ""){
+      json_url = json_url_base+urlSubstring+'.json';
+      }
+      else{
+        var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+      }
+      return json_url;
+      console.log(json_url);
+    }
 
 
-    $.getJSON(json_url, function(merchant){
+    $.getJSON(getURLString(urlSubstring), function(merchant){
       // Cards
       $.each(merchant.brandImages, function(i, image){
         // $('.card-deck').append($('<div class="card"><div class="card-interior" style="background-image: url('+post.image+');"><img src="'+merchant.whiteLogo+'" class="card-logo" /><div class="card-info"><h4 class="location-name">'+post.locationName+'</h4><div class="market-location">'+post.marketLocation+'</div><div class="source">Photo from '+post.source+'</div><div class="views">'+post.interactions+' Interactions</div></div></div></div>'));

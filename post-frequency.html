@@ -57,7 +57,22 @@
 
 <script>
   $(document).ready(function(){
-    var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+    var urlSubstring = window.location.search.substring(1);
+    var json_url_base = 'https://lukanx.github.io/compass-static/data/';
+    var json_url = null;
+    var _href = $("a.button-primary").attr("href");
+    $('a.button-primary').attr("href", _href + '?'+urlSubstring)
+
+    var getURLString = function(subst){
+      if (subst != ""){
+      json_url = json_url_base+urlSubstring+'.json';
+      }
+      else{
+        var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+      }
+      return json_url;
+      console.log(json_url);
+    }
 
     function getAverageYear(obj){
       var totalTime = 0;
@@ -72,7 +87,7 @@
     }
 
 
-    $.getJSON(json_url, function(merchant){
+    $.getJSON(getURLString(urlSubstring), function(merchant){
       var dates = [];
       $.each(merchant.posts, function(i, post){
         // $('.last-posts-by-location').append($('<li><div class="location-name">'+post.locationName+'</div><div class="platform">'+post.platform+': <span class="post-date">'+post.date'</span></div></li>'));
