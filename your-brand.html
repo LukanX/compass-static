@@ -45,17 +45,23 @@
 <script>
   $(document).ready(function(){
     var urlSubstring = window.location.search.substring(1);
-    json_url_base = 'https://lukanx.github.io/compass-static/data/';
+    var json_url_base = 'https://lukanx.github.io/compass-static/data/';
     var json_url = null;
 
-    if (urlSubstring != ""){
-      json_url = json_url_base+urlSubstring;
-    }
-    else{
-      var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+    var getURLString = function(subst){
+      if (subst != ""){
+      json_url = json_url_base+urlSubstring+'.json';
+      }
+      else{
+        var json_url = 'https://lukanx.github.io/compass-static/data/customer.json';
+      }
+      return json_url;
+      console.log(json_url);
     }
 
-    console.log(json_url);
+
+
+
 
 
     function hexToRgb(hex) {
@@ -67,7 +73,7 @@
       } : null;
     }
 
-    $.getJSON(json_url, function(merchant){
+    $.getJSON(getURLString(urlSubstring), function(merchant){
 
       // logo
       $('#logo-section').append($('<div class="logo" style="background-image: url('+merchant.logo+')"></div>'))
