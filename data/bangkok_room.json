@@ -1,0 +1,109 @@
+{
+  "name": "Bankok Room",
+  "logo": "https://media.mainstreethub.com/media/a4df3674-be6e-45f4-af91-492d59125427?height=240&crop=LIMIT",
+  "whiteLogo": "" ,
+  "colors": [
+    "#F1EBDE",
+    "#3B2313",
+    "#BF872F"
+  ],
+  "brandImages": [
+    "https://res.cloudinary.com/main-street-hub/image/upload/v1497364151/17ce1876-7c9f-4107-a450-24b79d31d9f7.jpg",
+    "https://res.cloudinary.com/main-street-hub/image/upload/v1497364155/24f44577-51b9-4738-94b6-deb58eb61d33.jpg",
+    "https://res.cloudinary.com/main-street-hub/image/upload/v1497364170/52b9b781-0aa1-4631-b10a-79a776f7592c.jpg",
+    "https://res.cloudinary.com/main-street-hub/image/upload/v1497364160/8cfdb383-9702-4b3d-9adb-a7265e75d7d9.jpg",
+    "https://res.cloudinary.com/main-street-hub/image/upload/v1497364167/1b2cf912-5c9c-42bb-b189-6292d0be59a8.jpg",
+    "https://res.cloudinary.com/main-street-hub/image/upload/v1497364171/08e831f6-a5e7-4e04-9314-31455e7b15d8.jpg",
+    "https://res.cloudinary.com/main-street-hub/image/upload/v1497364162/3834f1e0-d749-4a0e-a952-e560e70b19fc.jpg",
+    "https://res.cloudinary.com/main-street-hub/image/upload/v1497364158/47b697fc-d598-4feb-8786-0c9353a50ca0.jpg"
+  ],
+  "poorImages":[
+    {
+      "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e15/11191507_900609950026594_818904499_n.jpg",
+      "locationName": "Blink Concourse Village",
+      "source": "Instagram"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11057360_1461015850891937_3504478461250727509_n.jpg?oh=d2344a77f0e7c87d17d215e6cbc5d709&oe=5A4741C0",
+      "locationName": "Blink Linden",
+      "source": "Facebook"
+    },
+    {
+      "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e15/11189613_1087722391244909_424339158_n.jpg",
+      "locationName": "Blink Concourse Village",
+      "source": "Instagram"
+    },
+    {
+      "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e35/18513281_170954120099801_6298641433041567744_n.jpg",
+      "locationName": "Blink Union",
+      "source": "Instagram"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11898748_500976320083802_9129115091748828663_n.jpg?oh=5f44a5a213a7323bba9f22266d09fb9e&oe=5A1F1BB3",
+      "locationName": "Blink Jamaica",
+      "source": "Facebook"
+    }
+  ],
+  "posts": [
+    {
+      "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e15/11195837_1616857028554605_1743193673_n.jpg",
+      "locationName": "Blink Concourse Village",
+      "marketLocation": "Bronx",
+      "source": "Instagram",
+      "interactions": {
+        "likes": 3,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "10/15/12"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11057360_1461015850891937_3504478461250727509_n.jpg?oh=d2344a77f0e7c87d17d215e6cbc5d709&oe=5A4741C0",
+      "locationName": "Blink Linden",
+      "marketLocation": "New Jersey",
+      "source": "Facebook",
+      "interactions": {
+        "likes": 0,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "12/14/15"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14729105_645785972267485_5791199805866268165_n.jpg?oh=44a7d3c8231bd3ae70ec9badcfb085c7&oe=5A2C6B5B",
+      "locationName": "Blink South Orange",
+      "marketLocation": "New Jersey",
+      "source": "Facebook",
+      "interactions": {
+        "likes": 6,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "05/19/17"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/11960282_498102953704472_242546085012206519_n.jpg?oh=b17f21ca7dc02c8b396fe448eba88c6a&oe=5A43EAC7",
+      "locationName": "Blink Jamaica",
+      "marketLocation": "Queens",
+      "source": "Facebook",
+      "interactions": {
+        "likes": 3,
+        "comments": 2,
+        "shares": 0
+      },
+      "date": "12/14/15"
+    },
+    {
+      "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e15/fr/p1080x1080/20180757_253728121796597_7076324620093095936_n.jpg",
+      "locationName": "Blink Union",
+      "marketLocation": "New Jersey",
+      "source": "Instagram",
+      "interactions": {
+        "likes": 4,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "09/23/15"
+    }
+  ]
+}
