@@ -172,8 +172,12 @@ $break-small: '480px';
   &.horizontal{
     margin-top: 0;
     li{
-      width: 20%;
-      @include aspect-ratio(2,3)
+      width: 18.4%;
+      margin: 0 0 0 2%;
+      @include aspect-ratio(2,3);
+      &:first-child{
+        margin: 0;
+      }
     }
   }
 }
