@@ -1,0 +1,110 @@
+{
+  "name": "Rita's",
+  "logo": "https://www.ritasice.com/wp-content/themes/ritas/library/images/ritas/ritas-logo.png",
+  "whiteLogo": "https://www.ritasice.com/wp-content/themes/ritas/library/images/ritas/ritas-logo.png",
+  "colors": [
+    "#C42541",
+    "#096134",
+    "#68CDF3",
+    "#FFFFFF"
+  ],
+  "brandImages": [
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/21728532_10155226491858375_7377187071715966611_n.jpg?oh=f12aadea21f3a8bb4ac5a3422b1d4301&oe=5A50D931",
+    "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e35/21147347_158763758035079_583216645665718272_n.jpg",
+    "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e35/21041599_133635793914937_5363982087583956992_n.jpg",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/20155672_10155065786148375_263664678350902702_n.jpg?oh=e9d20d8bd23985e3ba03ac01f8daf10e&oe=5A39E0EB",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/19149269_10154962185243375_7809565915719967904_n.jpg?oh=8300042d66ee636d95780ec858647e77&oe=5A59050E",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/18447429_10154866462443375_6210578610872177425_n.jpg?oh=dd9ab5666b62c8d53662f29a2a3b37a9&oe=5A4A7428",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/18222367_10154831128968375_2114025910151928311_n.jpg?oh=8746819955d2a7336cfedf626d8a9f21&oe=5A3F50A3",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/14937392_10154279435668375_4899320495181100937_n.jpg?oh=ea602ba7ede973eec61a93772a7edc54&oe=5A3D7A1D"
+  ],
+  "poorImages":[
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/10429432_841316255927439_9078787134108403515_n.jpg?oh=5fdde62641037ebf2f2f48729576e846&oe=5A874D56",
+      "locationName": "Roosters MGC Voss Rd (Houston)",
+      "source": "Facebook"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/20882612_1555206224531955_2213227071265227358_n.jpg?oh=0eb01edec35bde6e3791e7d6e21e2ba7&oe=5A527B67",
+      "locationName": "Roosters MGC Roundrock",
+      "source": "Facebook"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/484677_506478219413639_617347455_n.jpg?oh=3e1f3ebb481c10a6cf8a1fa2e65fc69b&oe=5A39C528",
+      "locationName": "Roosters MGC Colleyville",
+      "source": "Facebook"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/12928375_1093133814083913_7726914998421718567_n.jpg?oh=5a12adf2fc5732aaa4a11d2048443ea1&oe=5A4087E3",
+      "locationName": "Roosters MGC Memphis",
+      "source": "Facebook"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/21740474_1423413164403893_3291099404356266663_n.jpg?oh=ad3baf101b892a22a00edd15697752b6&oe=5A4A43BA",
+      "locationName": "Roosters MGC Norwalk",
+      "source": "Facebook"
+    }
+  ],
+  "posts": [
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/12928375_1093133814083913_7726914998421718567_n.jpg?oh=5a12adf2fc5732aaa4a11d2048443ea1&oe=5A4087E3",
+      "locationName": "Roosters MGC Memphis",
+      "marketLocation": "Memphis",
+      "source": "Facebook",
+      "interactions": {
+        "likes": 4,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "06/21/17"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/20882612_1555206224531955_2213227071265227358_n.jpg?oh=0eb01edec35bde6e3791e7d6e21e2ba7&oe=5A527B67",
+      "locationName": "Roosters MGC Roundrock",
+      "marketLocation": "Austin",
+      "source": "Facebook",
+      "interactions": {
+        "likes": 1,
+        "comments": 2,
+        "shares": 0
+      },
+      "date": "09/15/2017"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/10429432_841316255927439_9078787134108403515_n.jpg?oh=5fdde62641037ebf2f2f48729576e846&oe=5A874D56",
+      "locationName": "Roosters MGC Voss Rd (Houston)",
+      "marketLocation": "Houston",
+      "source": "Facebook",
+      "interactions": {
+        "likes": 1,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "02/27/2017"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/484677_506478219413639_617347455_n.jpg?oh=3e1f3ebb481c10a6cf8a1fa2e65fc69b&oe=5A39C528",
+      "locationName": "Roosters MGC Colleyville",
+      "marketLocation": "Dallas Ft-Worth",
+      "source": "Facebook",
+      "interactions": {
+        "likes": 3,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "11/7/2015"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/21740474_1423413164403893_3291099404356266663_n.jpg?oh=ad3baf101b892a22a00edd15697752b6&oe=5A4A43BA",
+      "locationName": "Roosters MGC Norwalk",
+      "marketLocation": "New York",
+      "source": "Facebook",
+      "interactions": {
+        "likes": 2,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "09/20/17"
+    }
+  ]
+}
