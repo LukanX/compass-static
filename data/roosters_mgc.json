@@ -1,7 +1,7 @@
 {
   "name": "Roosters Men's Grooming Center",
   "logo": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/185116_505729659438665_1410177595_n.jpg?oh=6d51416349c7d8e32b55ad92d178e243&oe=5A4E5F91",
-  "whiteLogo": "" ,
+  "whiteLogo": "http://www.roostersmgc.com/stellent/groups/images/@images/@roosters/documents/images/roo_logo.png",
   "colors": [
     "#F1EBDE",
     "#3B2313",
@@ -19,17 +19,17 @@
   ],
   "poorImages":[
     {
-      "image": "https://www.facebook.com/Roosters13134/photos/a.841316269260771.1073741826.154622651263473/841316255927439/?type=3",
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/10429432_841316255927439_9078787134108403515_n.jpg?oh=5fdde62641037ebf2f2f48729576e846&oe=5A874D56",
       "locationName": "Roosters MGC Voss Rd (Houston)",
       "source": "Facebook"
     },
     {
-      "image": "https://www.facebook.com/MemoryLane80s/photos/a.992708297448420.1073741829.956964831022767/1555206224531955/?type=3",
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/20882612_1555206224531955_2213227071265227358_n.jpg?oh=0eb01edec35bde6e3791e7d6e21e2ba7&oe=5A527B67",
       "locationName": "Roosters MGC Roundrock",
       "source": "Facebook"
     },
     {
-      "image": "https://www.facebook.com/RoostersColleyville/photos/a.227847540610043.57419.224750430919754/506478219413639/?type=3",
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/484677_506478219413639_617347455_n.jpg?oh=3e1f3ebb481c10a6cf8a1fa2e65fc69b&oe=5A39C528",
       "locationName": "Roosters MGC Colleyville",
       "source": "Facebook"
     },
@@ -46,7 +46,19 @@
   ],
   "posts": [
     {
-      "image": "https://www.facebook.com/MemoryLane80s/photos/a.992708297448420.1073741829.956964831022767/1555206224531955/?type=3",
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/12928375_1093133814083913_7726914998421718567_n.jpg?oh=5a12adf2fc5732aaa4a11d2048443ea1&oe=5A4087E3",
+      "locationName": "Roosters MGC Memphis",
+      "marketLocation": "Memphis",
+      "source": "Facebook",
+      "interactions": {
+        "likes": 4,
+        "comments": 0,
+        "shares": 0
+      },
+      "date": "06/21/17"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/20882612_1555206224531955_2213227071265227358_n.jpg?oh=0eb01edec35bde6e3791e7d6e21e2ba7&oe=5A527B67",
       "locationName": "Roosters MGC Roundrock",
       "marketLocation": "Austin",
       "source": "Facebook",
@@ -58,7 +70,7 @@
       "date": "09/15/2017"
     },
     {
-      "image": "https://www.facebook.com/Roosters13134/photos/a.841316269260771.1073741826.154622651263473/841316255927439/?type=3",
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/10429432_841316255927439_9078787134108403515_n.jpg?oh=5fdde62641037ebf2f2f48729576e846&oe=5A874D56",
       "locationName": "Roosters MGC Voss Rd (Houston)",
       "marketLocation": "Houston",
       "source": "Facebook",
@@ -70,7 +82,7 @@
       "date": "02/27/2017"
     },
     {
-      "image": "https://www.facebook.com/RoostersColleyville/photos/a.227847540610043.57419.224750430919754/506478219413639/?type=3",
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/484677_506478219413639_617347455_n.jpg?oh=3e1f3ebb481c10a6cf8a1fa2e65fc69b&oe=5A39C528",
       "locationName": "Roosters MGC Colleyville",
       "marketLocation": "Dallas Ft-Worth",
       "source": "Facebook",
@@ -80,18 +92,6 @@
         "shares": 0
       },
       "date": "11/7/2015"
-    },
-    {
-      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/12928375_1093133814083913_7726914998421718567_n.jpg?oh=5a12adf2fc5732aaa4a11d2048443ea1&oe=5A4087E3",
-      "locationName": "Roosters MGC Memphis",
-      "marketLocation": "Memphis",
-      "source": "Facebook",
-      "interactions": {
-        "likes": 4,
-        "comments": 0,
-        "shares": 0
-      },
-      "date": "06/21/17"
     },
     {
       "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/21740474_1423413164403893_3291099404356266663_n.jpg?oh=ad3baf101b892a22a00edd15697752b6&oe=5A4A43BA",
