@@ -1,3 +1,6 @@
+// Terminal command to auto-update SASS code:
+// sass --watch style/Sass/style.scss:style/style.css
+
 @import 'reset';
 @import 'mixins';
 @import 'color';
