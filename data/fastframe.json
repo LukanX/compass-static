@@ -48,64 +48,64 @@
   ],
   "posts": [
     {
-      "image": "________URL_IMAGE__________",
-      "locationName": "______Customer_Franchise_location___________",
-      "marketLocation": "______City_of_this_location_______",
-      "source": "______social_platform_______",
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/13613341_145131325910040_4644018980926598096_o.jpg?oh=f75b040d78bd05efd2934bcc9c123089&oe=5A42776C",
+      "locationName": "FastFrame (McMurray, PA)",
+      "marketLocation": "McMurray, PA",
+      "source": "Facebook Logo",
       "interactions": {
-        "likes": 999999999,
-        "comments": 999999999,
-        "shares": 999999999
+        "likes": 0,
+        "comments": 0,
+        "shares": 0
       },
-      "date": "____mm/dd/yy____"
+      "date": "07/08/16"
     },
     {
-      "image": "________URL_IMAGE__________",
-      "locationName": "______Customer_Franchise_location___________",
-      "marketLocation": "______City_of_this_location_______",
-      "source": "______social_platform_______",
+      "image": "https://scontent-dft4-2.cdninstagram.com/t51.2885-15/e35/17661843_208137683009133_1291953495808671744_n.jpg",
+      "locationName": "FastFrame (Boulder, CO)",
+      "marketLocation": "Boulder, CO",
+      "source": "Instagram",
       "interactions": {
-        "likes": 999999999,
-        "comments": 999999999,
-        "shares": 999999999
+        "likes": 8,
+        "comments": 0,
+        "shares": 0
       },
-      "date": "____mm/dd/yy____"
+      "date": "09/23/17"
     },
     {
-      "image": "________URL_IMAGE__________",
-      "locationName": "______Customer_Franchise_location___________",
-      "marketLocation": "______City_of_this_location_______",
-      "source": "______social_platform_______",
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/332448_227719800633069_1309129053_o.jpg?oh=a5c90d5e7f85cc07d6475779e3315201&oe=5A4A6762",
+      "locationName": "FastFrame (Boston, MA)",
+      "marketLocation": "Boston, MA",
+      "source": "Facebook",
       "interactions": {
-        "likes": 999999999,
-        "comments": 999999999,
-        "shares": 999999999
+        "likes": 0,
+        "comments": 0,
+        "shares": 0
       },
-      "date": "____mm/dd/yy____"
+      "date": "12/02/11"
     },
     {
-      "image": "________URL_IMAGE__________",
-      "locationName": "______Customer_Franchise_location___________",
-      "marketLocation": "______City_of_this_location_______",
-      "source": "______social_platform_______",
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/20287109_1463737780330397_6713805592227050545_o.jpg?oh=cfe02fbe61d1cdd6e1750d04318b4c7d&oe=5A7C6845",
+      "locationName": "FastFrame (Keller, TX)",
+      "marketLocation": "Keller, TX",
+      "source": "Facebook",
       "interactions": {
-        "likes": 999999999,
-        "comments": 999999999,
-        "shares": 999999999
+        "likes": 0,
+        "comments": 0,
+        "shares": 0
       },
-      "date": "____mm/dd/yy____"
+      "date": "07/26/2017"
     },
     {
-      "image": "________URL_IMAGE__________",
-      "locationName": "______Customer_Franchise_location___________",
-      "marketLocation": "______City_of_this_location_______",
-      "source": "______social_platform_______",
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/580606_319838684788149_478103096_n.png?oh=f0a7bd15dda0d7698b06e7c15ec303e2&oe=5A48522A",
+      "locationName": "FastFrame (San Antonio, TX)",
+      "marketLocation": "San Antonio, TX",
+      "source": "Facebook",
       "interactions": {
-        "likes": 999999999,
-        "comments": 999999999,
-        "shares": 999999999
+        "likes": 0,
+        "comments": 0,
+        "shares": 0
       },
-      "date": "____mm/dd/yy____"
+      "date": "01/09/13"
     }
   ]
 }
