@@ -1,0 +1,110 @@
+{
+  "name": "________Customer_Name__________",
+  "logo": "________URL_IMAGE__________",
+  "whiteLogo": "________URL_IMAGE__________",
+  "colors": [
+    "#___hex___",
+    "#___hex___",
+    "#___hex___",
+    "#___hex___"
+  ],
+  "brandImages": [
+    "________URL_IMAGE__________",
+    "________URL_IMAGE__________",
+    "________URL_IMAGE__________",
+    "________URL_IMAGE__________",
+    "________URL_IMAGE__________",
+    "________URL_IMAGE__________",
+    "________URL_IMAGE__________",
+    "________URL_IMAGE__________"
+  ],
+  "poorImages":[
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "source": "______social_platform_______"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "source": "______social_platform_______"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "source": "______social_platform_______"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "source": "______social_platform_______"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "source": "______social_platform_______"
+    }
+  ],
+  "posts": [
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "marketLocation": "______City_of_this_location_______",
+      "source": "______social_platform_______",
+      "interactions": {
+        "likes": 999999999,
+        "comments": 999999999,
+        "shares": 999999999
+      },
+      "date": "____mm/dd/yy____"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "marketLocation": "______City_of_this_location_______",
+      "source": "______social_platform_______",
+      "interactions": {
+        "likes": 999999999,
+        "comments": 999999999,
+        "shares": 999999999
+      },
+      "date": "____mm/dd/yy____"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "marketLocation": "______City_of_this_location_______",
+      "source": "______social_platform_______",
+      "interactions": {
+        "likes": 999999999,
+        "comments": 999999999,
+        "shares": 999999999
+      },
+      "date": "____mm/dd/yy____"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "marketLocation": "______City_of_this_location_______",
+      "source": "______social_platform_______",
+      "interactions": {
+        "likes": 999999999,
+        "comments": 999999999,
+        "shares": 999999999
+      },
+      "date": "____mm/dd/yy____"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "marketLocation": "______City_of_this_location_______",
+      "source": "______social_platform_______",
+      "interactions": {
+        "likes": 999999999,
+        "comments": 999999999,
+        "shares": 999999999
+      },
+      "date": "____mm/dd/yy____"
+    }
+  ]
+}

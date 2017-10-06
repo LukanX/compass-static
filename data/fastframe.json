@@ -1,0 +1,111 @@
+{
+  "name": "FastFrame",
+  "logo": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/16487596_10156173822094988_1049146757247321849_o.jpg?oh=829f6401617c68674968e7c67e9a2578&oe=5A79C182",
+  "whiteLogo": "https://lukanx.github.io/compass-static/images/FastFrame/FastFrame-logo-white.png",
+  "colors": [
+    "#FFFFFF",
+    "#083D78",
+    "#70726F"
+  ],
+  "brandImages": [
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/21687054_10157327426184988_8704330877733213102_o.jpg?oh=1581a1158b7f2db0b3a07ad7723e3149&oe=5A74F063",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/12439456_10154859179384988_752495576857500876_n.jpg?oh=a3cd3f8508abd5726affb86ff404a03d&oe=5A439102",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/19601599_10156915868989988_5825065963751984423_n.jpg?oh=62fcabcbb7794256bb30f11f0a46747f&oe=5A475527",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/17156158_10156346430389988_1893967675616099812_n.jpg?oh=50ac5726564a7f250e972121e717a6e0&oe=5A3A6823",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/22051024_10157352031219988_5498048185236123407_o.jpg?oh=bdcf5ee67ea1ad2cbbeebeb374c042c9&oe=5A3FA729",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/21950774_10157341959149988_6676740467811282832_o.jpg?oh=0e8c9948f3502b4a9587f402cc1ec225&oe=5A3EBEC7",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/20229236_10157005700349988_4239367690685195647_n.jpg?oh=fc46a577776184db821ce418fc20097e&oe=5A449BA5",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/12814288_10154859178669988_1487694610740738549_n.jpg?oh=9573b767e18475de8048e4db729bee13&oe=5A461DCA",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/19030342_10156788725539988_417418564929572213_n.jpg?oh=1a0203c0fd579f382c82ac882edd9f01&oe=5A7B6DB1",
+    "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/18056240_10156536149489988_618539292882350139_o.jpg?oh=9d7bd78c3abcd207e77ada6e366b47ef&oe=5A75261E"
+  ],
+  "poorImages":[
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/13592679_1122775074460866_3259813791657269751_n.jpg?oh=69fd9e5df3cc59fc0922e73e35a44582&oe=5A403E9C",
+      "locationName": "______Customer_Franchise_location___________",
+      "source": "______social_platform_______"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/10291080_767158129988369_6829910735297406821_n.jpg?oh=e14cddef1b12c1b6c3523e317c04ac4d&oe=5A8806D0",
+      "locationName": "______Customer_Franchise_location___________",
+      "source": "______social_platform_______"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t31.0-8/17620365_742133905953775_7261821171261553138_o.jpg?oh=7f1a26d26dc553dee1fae304b7df05aa&oe=5A43DBCD",
+      "locationName": "______Customer_Franchise_location___________",
+      "source": "______social_platform_______"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/12311093_993570730686229_1502032316252722940_n.jpg?oh=1a2cc4c4900c5fbbd54e2809900d8513&oe=5A7A285B",
+      "locationName": "______Customer_Franchise_location___________",
+      "source": "______social_platform_______"
+    },
+    {
+      "image": "https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/13516518_10206565632555828_992580014648018593_n.jpg?oh=b8f5b598421626bd5dbbd787495c687c&oe=5A7CAE0D",
+      "locationName": "______Customer_Franchise_location___________",
+      "source": "______social_platform_______"
+    }
+  ],
+  "posts": [
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "marketLocation": "______City_of_this_location_______",
+      "source": "______social_platform_______",
+      "interactions": {
+        "likes": 999999999,
+        "comments": 999999999,
+        "shares": 999999999
+      },
+      "date": "____mm/dd/yy____"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "marketLocation": "______City_of_this_location_______",
+      "source": "______social_platform_______",
+      "interactions": {
+        "likes": 999999999,
+        "comments": 999999999,
+        "shares": 999999999
+      },
+      "date": "____mm/dd/yy____"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "marketLocation": "______City_of_this_location_______",
+      "source": "______social_platform_______",
+      "interactions": {
+        "likes": 999999999,
+        "comments": 999999999,
+        "shares": 999999999
+      },
+      "date": "____mm/dd/yy____"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "marketLocation": "______City_of_this_location_______",
+      "source": "______social_platform_______",
+      "interactions": {
+        "likes": 999999999,
+        "comments": 999999999,
+        "shares": 999999999
+      },
+      "date": "____mm/dd/yy____"
+    },
+    {
+      "image": "________URL_IMAGE__________",
+      "locationName": "______Customer_Franchise_location___________",
+      "marketLocation": "______City_of_this_location_______",
+      "source": "______social_platform_______",
+      "interactions": {
+        "likes": 999999999,
+        "comments": 999999999,
+        "shares": 999999999
+      },
+      "date": "____mm/dd/yy____"
+    }
+  ]
+}
